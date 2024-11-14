@@ -336,3 +336,8 @@ print("""                 .-:?,Z?:&$dHH##b\\_
            ` .               -          .-
               ` .                    .-
                   ' -==pHMMH##HH#'''""")
+sleep(1)
+print('\033[2J')
+print("\u001b[0m")
+print('\033[H')
+print('THE END')
